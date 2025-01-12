@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(31, 30, 30);
+}
+
+#atom{
+    width: 100px;
+    position: absolute;
+}
+
+#ufo{
+    width: 100px;
+    position: absolute;
+    top: 0; 
+    left: 0;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s; 
+    -o-transition: all 0.2s; 
+    transition: all 0.2s;
+}
+
+#scoreTB{
+  position: absolute;
+  color: white;
+}
+
+#timeTB{
+    position: absolute;
+    right: 100px;
+    color: white;
+  }
+
+
+p{
+    font-size: 13px;
+}
